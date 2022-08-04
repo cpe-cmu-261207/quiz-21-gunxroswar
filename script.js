@@ -1,5 +1,5 @@
 async function callApi() {
-  const resp = await axios.get("https://randomuser.me/api/%22);
+  const resp = await axios.get("https://randomuser.me/api/%22");
   const x = resp.result[0];
   console.log(x.gender);
 }
